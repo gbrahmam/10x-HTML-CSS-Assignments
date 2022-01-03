@@ -1,7 +1,114 @@
-/* Our CSS file. */
-
-
 .container, .content {
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+body{
+  border:2px solid blue;
+}
+header{
+  border-bottom:2px solid black;
+  padding:10px;
+}
+.page-head{
+  background:lightgreen;
+  height:50px;
+}
+
+.page-head img{
+  width:35px;
+  height:35px;
+  margin-top:8px;
+  margin-left:10px;
+}
+
+.page-head form{
+  display: inline-block;
+  float:right;
+  margin-top:15px;
+  margin-right:10px;
+}
+
+.page-head form input{
+  height:15px;
+}
+
+.navigation ul{
+  text-align:center;
+  border:1px solid black;
+  padding: 5px;
+}
+.navigation ul li{
+  list-style: none;
+  display:inline-block
+}
+
+.navigation ul li{
+    margin:0px 30px;
+}
+
+.page-cont{
+  width:100%;
+  margin:10px;
+  padding:10px;
+}
+
+.page-cont aside, .page-cont section{
+  display: inline-block;
+  vertical-align:top;
+}
+
+.page-cont aside{
+  width:20%;
+  margin:10px;
+  height:100%
+}
+
+#main-content-section{
+  width:50%;
+  height:100%;
+}
+
+.left-side ul li{
+  list-style: none;
+  margin:15px;
+  margin-left:-30px;
+}
+
+.left-side ul{
+ border:1px solid black;
+}
+
+#main-content-section{
+ border:1px solid black;
+}
+
+.image-row1{
+  display: inline-block;
+}
+
+.image-row2{
+  display: inline-block;
+}
+
+.post-img{
+  width:100px;
+  height:100px;
+  margin:60px;
+  margin-left:30px;
+}
+
+#right-sidebar-menu li{
+  list-style: none;
+  margin:15px;
+  margin-left:-30px;
+}
+
+#right-sidebar-menu{
+ border:1px solid black;
+}
+
+#page-footer{
+  margin:20px;
+  border:1px solid black;
+  padding:20px;
 }
