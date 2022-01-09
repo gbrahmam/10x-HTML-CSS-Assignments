@@ -5,3 +5,165 @@
 width: 100%;
 height: 100%;
 }
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background: turquoise;
+    color: white;
+    height: 70px;
+    padding: 0 25px;
+}
+
+header h1 {
+    float: left;
+    text-indent: -9999px;
+    background: url('../Assignment-4/images/dop.JPG') no-repeat;
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+header nav li:hover {
+    background: #3F8DA7;
+    color: white;
+    cursor: pointer;
+}
+
+#hero {
+    background: url('../Assignment-4/images/grass.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+
+#hero img {
+    display: block;
+    margin: auto;          
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: 5px solid #3F8DA7;
+}
+  
+  #hero h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#hero .btn{
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 5%;
+    height: 15%;
+}
+
+#hero .btn:hover{
+    background: #3F8DA7;
+    color: white;
+}
+
+.three-col {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.three-col h3{
+    color: #3F8DA7;
+    font-weight: bold;
+    font-size: 20px;
+}
+.three-col img {
+    border-radius: 50%;
+    border: 3px solid #3F8DA7;
+    height: 200px;
+    width: 200px;
+    margin: 25px 0;
+}
+
+.three-col p {
+    margin-bottom: 25px;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.three-col .btn{
+    background: white;
+    border: 5px solid #3F8DA7;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+}
+
+.three-col .btn:hover{
+    background: #3F8DA7;
+    color: white;
+}
+
+footer {
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    margin: 40px 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+footer ul li img{
+    width: 35px;
+    height: 35px;
+    border-radius: 15%;
+}
+
+.link{
+    color: white;
+    text-decoration:none ;
+}
+
+.link:hover {
+    color: #92E0E5;
+}
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+
+  
