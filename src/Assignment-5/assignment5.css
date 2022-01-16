@@ -1,7 +1,69 @@
-/* Our CSS file. */
+*{
+box-sizing: border-box;
+}
 
-
-.container, .content {
+html,body,#container{
 width: 100%;
 height: 100%;
+}
+
+body{
+background-color:lightgrey;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.wrap{
+width: 100%;
+}
+
+.card{
+display: flex;
+flex: 0 0 auto;
+background-color: white;
+max-width: 700px;
+margin: 60px auto;
+border-radius:5px;
+box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.5);
+}
+
+.card .picture{
+border-radius: 5px 0px 0px 5px;
+width: 300px;
+flex: 0 0 auto;
+position: relative;
+background-color: lightgreen;
+}
+
+.card .picture img{
+position: absolute;
+bottom: 3em;
+left: 50%;
+margin-left: -170px;
+width: 350px;
+}
+
+.card .content{
+padding: 3em 4em 2em;
+}
+
+a{
+background: lightgreen;
+color: white;
+padding: 15px 25px 25px;
+height: 50px;
+letter-spacing: 1px;
+display: inline-block;
+text-decoration: none;
+border-radius: 25px;
+margin-top: 1.5em;
+border: 1px solid black;
+}
+
+h2{
+font-size: 30px;
 }
